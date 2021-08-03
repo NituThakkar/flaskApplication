@@ -3,7 +3,7 @@ import joblib
 
 #initialse the app
 app = Flask(__name__)
-model = joblib.load('flask_app/dib_79.pkl')
+model = joblib.load('dib_79.pkl')
 
 @app.route('/')
 def hello():
